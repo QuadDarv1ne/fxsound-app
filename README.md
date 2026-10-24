@@ -45,4 +45,22 @@ FxSound — это программа для обработки цифрово
    `audiopassthru/audiopassthru.vcxproj` и `dsp/DfxDsp.vcxproj`.
 2. В проекте `FxSound_App` добавьте ссылки (references) на проекты `audiopassthru` и `DfxDsp`.
 3. Если запускаете из Visual Studio и хотите, чтобы приложение использовало пресеты, задайте рабочую директорию:  
-   В свойствах проекта `FxSound_App` → Properties → Debugging → Working Directory укажите:  
+   В свойствах проекта `FxSound_App` → Properties → Debugging → Working Directory укажите: `(SolutionDir)..\..\bin\(PlatformTarget)`
+
+
+## Как внести вклад в проект
+
+Мы рады любым желающим поучаствовать в развитии проекта. Подробнее о том, как внести свой вклад, читайте в [руководстве для участников](./CONTRIBUTING.md).
+
+## Благодарности
+
+- **Advanced Installer** — за предоставление лицензии Advanced Installer Professional для сборки установщика.
+- **JUCE** — фреймворк, используемый в проекте (лицензия AGPL v3.0): [juce.com](https://juce.com).
+- **Theremino** — за ценный вклад и реализацию важных улучшений в FxSound: [theremino.com](https://www.theremino.com).
+
+![Advanced Installer logo](https://github.com/user-attachments/assets/c133fe06-619c-4c17-bce9-f1cf051c5265)
+
+## Лицензия
+
+Проект распространяется под лицензией [AGPL v3.0](https://github.com/fxsound2/fxsound-app/blob/main/LICENSE).
+
